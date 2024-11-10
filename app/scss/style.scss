@@ -1,0 +1,28 @@
+@font-face {
+    font-family:'anig';
+    src: url(../fonts/anig.woff);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'druk';
+    src: url(../fonts/druk.woff);
+    font-weight: 500;
+}
+:root{
+    --main: 'anig';
+    --soft: 'druk';
+    --roboto: "Roboto", sans-serif;
+}
+@import './reset';
+body{
+    max-width: 393px;
+    margin: 0 auto;
+    background-color: #1B1C20;
+    font-family: var(--main);
+    height: 100vh;
+}
+.container{
+    max-width: 367px;
+    margin: 0 auto;
+    width: 100%;
+}
