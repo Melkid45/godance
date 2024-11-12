@@ -175,7 +175,7 @@
                     width: 299rem;
                     height: 426rem;
                     position: fixed;
-                    bottom: 65rem;
+                    bottom: 55rem;
                 }
                 button{
                     background: linear-gradient(90deg, #EE0C72 23%, #4713A9 100%);
@@ -362,7 +362,7 @@
                     margin-top: 29rem;
                     &-item{
                         width: 153rem;
-                        height: 179rem;
+                        height: 175rem;
                         border: 2rem solid #EE0C72;
                         border-radius: 20rem;
                         position: relative;
@@ -372,11 +372,11 @@
                         justify-content: flex-end;
                         img{
                             width: 156rem;
-                            height: 166rem;
+                            height: 160rem;
                         }
                         &-wrap{
                             width: 150rem;
-                            height: 177rem;
+                            height: 175rem;
                             position: absolute;
                             top: 0;
                             left: 0;
@@ -458,19 +458,20 @@
 
 @media (max-width: 400px) and (max-height: 700px) {
     .main__body-first h1{
-        font-size: 20rem;
-        line-height: 20rem;
+        font-size: 18rem;
+        line-height: 18rem;
     }
     .main__body-first-desc{
         font-size: 12rem;
         line-height: 12rem;
     }
     .main__body-first-soft{
-        font-size: 16rem;
-        line-height: 16rem;
+        font-size: 14rem;
+        line-height: 14rem;
+        margin-top: 12rem;
     }
     .main__body-banner-title{
-        font-size: 48rem;
-        line-height: 48rem;
+        font-size: 32rem;
+        line-height: 32rem;
     }
 }

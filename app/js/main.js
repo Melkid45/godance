@@ -81,6 +81,14 @@ $('.banner__btn').on('click', function(e){
 $('.header__body-top-back').on('click', function(e){
     $('.section').each(function(e){
         if($(this).hasClass('show') && !$(this).hasClass('dshow')){
+            if ($(this).hasClass('main__body-banner')){
+                $('.main__ellipse').removeClass('active')
+            }
+            if ($(this).hasClass('main__body-option')){
+                setTimeout(() => {
+                    $('.main__ellipse').addClass('active')
+                }, 500);
+            }
             console.log($(this).index())
             let index = $(this).index()
             localStorage.setItem('index', index)
