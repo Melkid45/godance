@@ -8,7 +8,6 @@
         margin: 0 auto;
         background-color: #1B1C20;
         font-family: var(--main);
-        height: 100vh;
         overflow: hidden;
     }
     .container{
@@ -146,12 +145,24 @@
                     text-underline-position: from-font;
                     text-decoration-skip-ink: none;
                     color: #EE0C72;
+                    text-transform: uppercase;
+                }
+                .soft__title{
+                    font-family: var(--soft);
+                    font-size: 36rem;
+                    font-weight: 500;
+                    line-height: 36rem;
+                    text-align: center;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    color: #EE0C72;
+                    text-transform: uppercase;
                 }
                 .alternative__title{
                     font-family: var(--main);
-                    font-size: 20rem;
+                    font-size: 24rem;
                     font-weight: 500;
-                    line-height: 22rem;
+                    line-height: 28rem;
                     text-align: center;
                     text-transform: uppercase;
                     color: #fff;
@@ -162,7 +173,7 @@
                 p{
                     font-size: 22rem;
                     font-weight: 700;
-                    line-height: 22rem;
+                    line-height: 26rem;
                     text-align: center;
                     text-underline-position: from-font;
                     text-decoration-skip-ink: none;
@@ -210,9 +221,9 @@
                 height: auto;
                 min-height: calc(100vh - 14rem - 108rem);
                 h3{
-                    font-size: 28rem;
+                    font-size: 32rem;
                     font-weight: 700;
-                    line-height: 28rem;
+                    line-height: 32rem;
                     text-align: center;
                     text-underline-position: from-font;
                     text-decoration-skip-ink: none;
@@ -224,9 +235,9 @@
                     }
                 }
                 .choose__title{
-                    font-size: 20rem;
+                    font-size: 24rem;
                     font-weight: 700;
-                    line-height: 22rem;
+                    line-height: 26rem;
                     text-align: center;
                     text-underline-position: from-font;
                     text-decoration-skip-ink: none;
