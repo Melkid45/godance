@@ -9,7 +9,6 @@
         background-color: #1B1C20;
         font-family: var(--main);
         height: 100vh;
-        overflow: hidden;
     }
     .container{
         max-width: 367rem;
@@ -113,6 +112,7 @@
             justify-content: center;
             position: relative;
             height: calc(100vh - 14rem - 58rem);
+            overflow: hidden;
             .main__ellipse{
                 width: 351rem;
                 height: 352rem;
@@ -161,9 +161,9 @@
                     }
                 }
                 p{
-                    font-size: 18rem;
+                    font-size: 22rem;
                     font-weight: 700;
-                    line-height: 18rem;
+                    line-height: 22rem;
                     text-align: center;
                     text-underline-position: from-font;
                     text-decoration-skip-ink: none;
@@ -322,9 +322,9 @@
                 transition: all 0.5s ease;
                 height: calc(100vh - 14rem - 58rem);
                 h1{
-                    font-size: 20rem;
+                    font-size: 24rem;
                     font-weight: 700;
-                    line-height: 20rem;
+                    line-height: 24rem;
                     text-align: center;
                     color: #fff;
                     text-transform: uppercase;
@@ -335,9 +335,9 @@
                 }
                 &-desc{
                     font-family: var(--roboto);
-                    font-size: 13rem;
+                    font-size: 15rem;
                     font-weight: 500;
-                    line-height: 13rem;
+                    line-height: 15rem;
                     text-align: center;
                     text-underline-position: from-font;
                     text-decoration-skip-ink: none;
@@ -346,12 +346,12 @@
                     margin-top: 11rem;
                 }
                 &-soft{
-                    font-size: 16rem;
+                    font-size: 18rem;
                     font-weight: 700;
-                    line-height: 16rem;
+                    line-height: 18rem;
                     text-align: center;
                     color: #fff;
-                    margin-top: 15rem;
+                    margin-top: 19rem;
                     text-transform: uppercase;
                 }
                 &-block{
